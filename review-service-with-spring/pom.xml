@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.andreluizdev12</groupId>
-	<artifactId>review-with-spring</artifactId>
+	<artifactId>review-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>review-with-spring</name>
+	<name>review-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

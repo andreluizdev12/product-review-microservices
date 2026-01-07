@@ -1,12 +1,17 @@
 package com.github.andreluizdev12.product_with_spring.Domain;
 
 
+import jakarta.validation.constraints.NotBlank;
+
 import java.math.BigDecimal;
 
-public record ProductCreateDto(
+public record ProductCreateDTO(
+         @NotBlank
          String name,
+         @NotBlank
          Category category,
-         BigDecimal price,
-         Long count
+         @NotBlank
+         BigDecimal price
+
 ) {
 }
